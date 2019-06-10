@@ -1,0 +1,7 @@
+sqlite3 00_log.db <<EOF
+
+select * from messages order by timestamp;
+.quit
+EOF
+
+
